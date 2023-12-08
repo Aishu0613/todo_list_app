@@ -656,9 +656,7 @@ class TodoDialogState extends State<TodoDialog> with StatusDialogInterface {
     // TODO: implement selectedValue
     setState(() {
       statusName = selectedValue;
-     // updateStatus();
       Navigator.pop(context);
-      print("hkgtjhgtgt  $statusName $selectedValue");
     });
   }
 }
